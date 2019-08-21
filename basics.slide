@@ -97,3 +97,12 @@ Methods for Circle
 
 * Interface
 .play interface/main.go /start main OMIT/,/end main OMIT/
+
+* Pointers
+Pass by value
+.code pointers/main.go /start val OMIT/,/end val OMIT/
+Pass by reference
+.code pointers/main.go /start ref OMIT/,/end ref OMIT/
+
+* Pointers
+.play pointers/main.go /start main OMIT/,/end main OMIT/

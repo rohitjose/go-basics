@@ -1,0 +1,29 @@
+Go
+Basics of coding in Go
+
+* Obligatory Hello world
+.play hello-world/main.go 
+
+* Values
+.play values/main.go 
+
+* Variables
+.play variables/main.go /start run OMIT/,/end run OMIT/
+
+* Variables
+.play assignment_wrong/main.go /start run OMIT/,/end run OMIT/
+
+* Variables
+.play assignment_right/main.go /start run OMIT/,/end run OMIT/
+
+* Slice & Conditional
+.play slice/main.go 
+
+* Structs
+.code structs/main.go  /start structs OMIT/,/end structs OMIT/
+
+* Structs
+.code structs/main.go  /start methods OMIT/,/end methods OMIT/
+
+* Structs
+.play structs/main.go  /start main OMIT/,/end main OMIT/

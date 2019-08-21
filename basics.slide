@@ -16,6 +16,9 @@ Basics of coding in Go
 * Variables
 .play assignment_right/main.go /start run OMIT/,/end run OMIT/
 
+* Constants
+.play constants/main.go /start basic OMIT/,/end basic OMIT/
+
 * Loops
 .play loop/main.go /start run OMIT/,/end run OMIT/
 
@@ -50,6 +53,27 @@ Basics of coding in Go
 Multiple return values
 .play funcs2/main.go /start basic OMIT/,/end basic OMIT/
 
+* Variadic Fuction
+.play variadic/main.go /start basic OMIT/,/end basic OMIT/
+
+* Maps
+.code maps/main.go /start basic OMIT/,/end basic OMIT/
+
+* Maps
+.play maps/main.go /start basic2 OMIT/,/end basic2 OMIT/
+
+* Iteration
+Array
+.code range/main.go /start basic OMIT/,/end basic OMIT/
+Without index
+.code range/main.go /start basic2 OMIT/,/end basic2 OMIT/
+
+* Iteration
+Maps
+.code range/main.go /start maps OMIT/,/end maps OMIT/
+Strings
+.play range/main.go /start strings OMIT/,/end strings OMIT/
+
 * Structs
 .code structs/main.go  /start structs OMIT/,/end structs OMIT/
 
@@ -58,3 +82,18 @@ Multiple return values
 
 * Structs
 .play structs/main.go  /start main OMIT/,/end main OMIT/
+
+* Interface
+Declaration
+.code interface/main.go /start int OMIT/,/end int OMIT/
+Structs
+.code interface/main.go /start structs OMIT/,/end structs OMIT/
+
+* Interface
+Methods for Rectangle
+.code interface/main.go /start rect OMIT/,/end rect OMIT/
+Methods for Circle
+.code interface/main.go /start cir OMIT/,/end cir OMIT/
+
+* Interface
+.play interface/main.go /start main OMIT/,/end main OMIT/

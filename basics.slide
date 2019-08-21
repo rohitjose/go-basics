@@ -16,8 +16,39 @@ Basics of coding in Go
 * Variables
 .play assignment_right/main.go /start run OMIT/,/end run OMIT/
 
-* Slice & Conditional
+* Loops
+.play loop/main.go /start run OMIT/,/end run OMIT/
+
+* Loops
+.play loop/main.go /start run2 OMIT/,/end run2 OMIT/
+
+* Conditionals
+.play conditional/main.go /start run OMIT/,/end run OMIT/
+
+* Switch
+.code switch/main.go /start basic OMIT/,/end basic OMIT/
+
+* Switch
+.code switch/main.go /start default OMIT/,/end default OMIT/
+
+* Switch
+.code switch/main.go /start var OMIT/,/end var OMIT/
+
+* Array
+.code array/main.go /start basic OMIT/,/end basic OMIT/
+
+* Array
+.play array/main.go /start basic2 OMIT/,/end basic2 OMIT/
+
+* Slices
 .play slice/main.go 
+
+* Function
+.code functions/main.go /start basic OMIT/,/end basic OMIT/
+
+* Function
+Multiple return values
+.play funcs2/main.go /start basic OMIT/,/end basic OMIT/
 
 * Structs
 .code structs/main.go  /start structs OMIT/,/end structs OMIT/

@@ -1,0 +1,15 @@
+gRPC
+gRPC Concepts and Internals
+
+* Protocol Buffers role in gRPC
+**Function
+- Messages: Data, Request & Response
+- Service: Service name and RPC Endpoints
+
+Proto files enable code generation - both server and client stubs
+
+**Why?
+- Payload sizes are smaller compared to other text based encoding like JSON
+- Saves a lot of network bandwidth
+
+

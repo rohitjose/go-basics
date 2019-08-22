@@ -21,11 +21,13 @@ gRPC uses HTTP/2 as the backbone for its communications
 Demo: [[https://imagekit.io/demo/http2-vs-http1]]
 
 HTTP 1.1 Limitations
+
 - New TCP connection at server for each Request
 - Headers are not compressed (plain text)
 - Only request-response pattern
 
-HTTP 2 Advantages
+* Advantages
+
 - Supports multiplexing - client and sever can push messages in parallel => Reduced latency
 - Supports push streams - bidirectional
 - Supports header compression
@@ -36,5 +38,12 @@ HTTP 2 Advantages
 * Types of API in gRPC
 .image gRPC/types.PNG
 
+* gRPC vs REST
+* Differences
+- JSON vs Protocol Buffers
+- Text based vs binary messaging
+- HTTP1.1 vs HTTP2
+- Request-Response vs Streaming
+- Code generation
  
 

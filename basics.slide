@@ -14,6 +14,7 @@ Basics of coding in Go
 .play assignment_wrong/main.go /start run OMIT/,/end run OMIT/
 
 * Variables
+Right
 .play assignment_right/main.go /start run OMIT/,/end run OMIT/
 
 * Constants
